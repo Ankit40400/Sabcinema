@@ -1,0 +1,672 @@
+/* --------------------------indexxxxxxxxxxxxx  ---------------------*/
+
+/* line 21 header section
+   line 62 footer section
+   line 137 category picture styling
+   line 182 image gallery
+   line 288 about page styling
+   line 334 demand page styling
+   line 360 feedback page styling 
+*/
+
+
+
+
+body{
+	height: 100%;
+}
+
+
+
+
+
+/*   header section */
+
+.searchbox
+	{
+		margin-right: 80px;
+	}
+
+.websitename
+{
+	font-size: 25px;
+	color:white;
+
+	
+}
+
+.websitename:hover
+{
+	font-size: 26px;
+	color:white;
+	text-shadow: 10px 9px 10px rgb(0,0,0,1.5);
+}
+
+.navbar-nav li a:hover
+{
+	font-size: 15px;
+
+}
+
+
+
+.searchbox input
+{
+	text-align: center;
+	border-radius: 5px;
+	padding:4px;
+	
+}
+
+
+ /*header section end here*/ 
+
+
+/*footer section*/
+
+.footer-section
+{
+	background-color: #222;
+	color:white;
+	margin-top:30px;
+	padding-top: 30px;
+	height: 120px;
+}
+
+.footer-section a  {
+	font-weight: bolder;
+	text-align:center;
+	font-size: 18px;
+}
+
+.footer-section p  {
+	font-weight: bolder;
+	text-align:center;
+	font-size: 18p
+
+}
+
+
+/*footer section end here*/
+
+
+
+
+/*-------------------------------admin login styling-----------------------------------------------*/
+.main-container{
+		padding-top: 40px;
+
+	}
+
+	.login{
+		background-image: url(aboutpage_and_demand_page_images/loginpages.jpg);
+	}
+
+	.main-container h2{
+		font-family: arial;
+		font-size: 40px;
+		color:#111;
+		line-height: 50px;
+		text-align: center;
+		margin-top: 60px;
+		padding: 50px;
+		
+	}
+
+
+	.login-form{
+		width:px;
+		margin:0 auto;
+		padding-top: 30px;
+
+		background-color: grey;
+		margin-bottom: 150px;
+		box-shadow: inset 0px 5px 10px rgba(0,0,0,0.5);
+
+	}
+
+	.login-form input{
+
+	box-shadow:  0px 5px 10px rgba(0,0,0,0.5);
+		width: 90%;
+		height: 40px;
+		padding: 5px 5px;
+		margin-bottom: 10px;
+		border:none;
+		background-color: #fff;
+		font-family: arial;
+		font-size: 16px;
+		color: #111;
+		line-height: 40px;
+		margin-bottom: 4px;
+		margin-left: 14px;
+		text-align: center;
+
+	}
+
+	.login-form button{
+
+		display: block;
+		width: 30%;
+		height: 40px;
+		margin: 0 auto;
+		border:none;
+		background-color: #222;
+		font-family: arial;
+		font-size: 16px;
+		color: red;
+		text-align:center;
+		
+	}
+
+	/*---------------------admin login styling end here----------------------*/
+
+
+
+
+
+
+
+
+	/*category pictures */
+
+.category_section
+{
+	
+	background-color:grey;
+	border-radius: 9px;
+	padding: 8px;
+	margin-bottom: 10px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+	.row div a img {
+
+		box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+	}
+
+	.row div a img:hover {
+
+		box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+	}
+
+
+	.row .caption p{
+		font-size: 16px;
+		color: white;
+		text-transform: uppercase;
+		
+	}
+
+	.row .caption p:hover{
+		
+		text-shadow: 0px 8px 10px rgba(0,0,0,0.5);
+		
+	}
+
+	.row div a{
+		text-decoration: none;
+	}
+
+	/*category pictures styleing ends here*/
+
+
+
+
+/* image gallery styling */
+
+.result {
+ font-weight: bolder;
+ font-color:red;
+ font-family: georgia;
+ text-shadow:0px 10px 5px rgba(0,0,0,0.5);
+ text-align: center;
+ font-size: 40px;
+}
+
+.movies_section
+{
+	
+	background-color:grey;
+	border-radius: 9px;
+	padding: 8px;
+	margin-bottom: 10px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+
+
+.movies_section a img {
+box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+.movies_section a img:hover{
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+}
+
+.movies_section a .caption {
+	
+	text-align: center;
+	font-size: 13px;
+	margin-top: 5px;
+	color:white;
+	text-transform: uppercase;
+}
+
+.movies_section a{
+	text-decoration: none;
+}
+
+.pagination a
+{
+
+ background color: blue;
+}
+
+.no_result_section h3{
+ font-weight: bolder;
+ font-color:red;
+ font-family: georgia;
+ text-shadow:0px 5px 9px rgba(0,0,0,0.5);
+ text-align: center;
+ font-size: 30px;
+}
+
+
+.no_result_section a{
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 25px;
+	
+	text-align: right;
+	text-transform: uppercase;
+
+}
+
+
+.no_result_section a:hover{
+	text-decoration: none;
+	text-shadow:0px 5px 9px rgba(0,0,0,0.5);
+}
+/*image gallery styling end here*/
+
+
+/* insert picture styling*/
+.insert_picture{
+		padding-top: 20px;
+		
+	}
+
+	.insert_form h2{
+		font-family: arial;
+		font-size: 30px;
+		color:#111;
+		line-height: 50px;
+		text-align: center;
+		
+	}
+
+
+	.insert_form{
+		width: 400px;
+		margin:0 auto;
+		padding: 40px;
+
+		background-color:pink
+
+	}
+
+	.insert_form input,select{
+	
+		width: 80%;
+		height: 35px;
+		padding: 0px 5px;
+		border:none;
+		background-color: #fff;
+		font-family: arial;
+		font-size: 16px;
+		color: #111;
+		line-height: 40px;
+		margin-bottom: 5px;
+		margin-left: 30px;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	.insert_form select{
+		margin-bottom: 5px;
+		margin-left: 30px;
+	}
+
+	.insert_form button{
+
+		display: block;
+		width: 30%;
+		height: 40px;
+		margin: 0 auto;
+		border:none;
+		background-color: #222;
+		font-family: arial;
+		font-size: 16px;
+		color: red;
+		text-align:center;
+		
+	}
+
+
+
+
+	/*insert picture styling end here*/
+
+
+
+/* about page styling starts from here*/
+
+.about-page{
+
+ 		background-image: url(aboutpage_and_demand_page_images/journey2.jfif);
+ 	}
+
+ 	.about-page .about
+ 	{
+ 		
+ 		margin-left:50px;
+ 		margin-right: 50px;
+ 		margin-bottom:px;
+ 	}
+ 		
+
+.about-page  h2{
+	
+	font-size: 5vw;
+	font-family: Times;
+	text-shadow:0px 5px 10px rgba(0,0,0,0.5);
+	margin-bottom: 10px;
+
+}
+
+.about-page p{
+	
+	font-size:2vw;
+	font-weight: bold;
+	font-family: Garamond;
+	text-shadow:0px 5px 10px rgba(0,0,0,0.5);
+	line-height: 1.5em;
+
+	
+}
+
+
+.about-page-images img
+{
+	margin-bottom:10px;
+	border-radius: 10px;
+	box-shadow:0px 5px 10px rgba(0,0,0,0.5);
+}
+/*------- about page styling ends here --------*/
+
+/* -----------demand page styling starts here------------*/
+
+
+.demand-page h1 {
+ font-size: 30px;
+ text-align: center;
+ font-family: times;
+ font-weight: bolder;
+ color:white;
+ text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+ background-color:blue;
+ opacity: 
+}
+
+
+.demand-page h2 {
+ font-size: 40px;
+ text-align: center;
+ font-family: times;
+ font-weight: bolder;
+}
+
+.demand-page {
+
+	background-image: url(aboutpage_and_demand_page_images/demand1.jpg);
+
+}
+
+.main-demand{
+	padding: 60px;
+}
+
+.demand-container{
+		padding-top: 40px;
+		box-shadow:  0px 5px 10px rgba(0,0,0,0.5);
+
+		
+
+	}
+
+	.demand-container h2{
+		font-family: arial;
+		font-size: 40px;
+		color:#111;
+		line-height: 50px;
+		text-align: center;
+		margin-top: 60px;
+		
+	}
+
+
+	.demand-form{
+		width:px;
+		margin:0 auto;
+		padding-top: 30px;
+
+		background-color: grey;
+		box-shadow: inset 0px 5px 10px rgba(0,0,0,0.5);;
+
+	}
+
+	.demand-form input{
+	
+		width: 90%;
+		height: 40px;
+		padding: 5px 5px;
+		border:none;
+		background-color: #fff;
+		font-family: arial;
+		font-size: 16px;
+		color: #111;
+		line-height: 40px;
+		margin-bottom: 4px;
+		margin-left: 14px;
+		text-align: center;
+	}
+
+	.demand-form button{
+
+		display: block;
+		width: 30%;
+		height: 40px;
+		margin: 0 auto;
+		border:none;
+		background-color: #222;
+		font-family: arial;
+		font-size: 16px;
+		color: red;
+		text-align:center;
+		
+	}
+
+ /* demand page styling ends here*/
+
+
+
+
+ /* --------feedback page styling starts here---------*/
+
+ .feedback-container{
+ 	height: 600px;
+
+ 	
+ }
+
+.feedbackimage{
+ 	
+ 	background-image: url(aboutpage_and_demand_page_images/feedback.jpg);
+}
+
+
+.feedback-container{
+		padding-top: 50px;
+		
+
+	}
+
+	.feedback-container h2{
+		font-family: georgia;
+		font-size: 40px;
+		color:#111;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		background-color: white;
+		opacity: 0.8;
+		box-shadow:0px 5px 10px rgba(0,0,0,0.5);
+		text-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+
+
+	}
+
+	.feedback-container h2:hover{
+		opacity:0.8;
+		text-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+		
+	}
+
+
+	.feedback-form{
+		
+		margin:0 auto;
+		padding-top: 30px;
+
+		background-color: ;
+		
+
+	}
+
+	.feedback-form input{
+	
+		width: 100%;
+		height: 40px;
+		padding: 0px 5px;
+		border:none;
+		background-color: #fff;
+		font-family: arial;
+		font-size: 16px;
+		color: #111;
+		line-height: 40px;
+		margin-bottom: 8px;
+		margin-left: 14px;
+		margin-top: 10px;
+		text-align:center;
+		opacity: 0.8;
+		color:black;
+		font-weight: bold;
+
+	}
+
+	.feedback-form input:hover{
+		opacity: 1;
+		box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+	}
+
+
+	.feedback-form button{
+
+		display: block;
+		width: 30%;
+		height: 40px;
+		margin: 0 auto;
+		margin-top: 10px;
+		border:none;
+		background-color: #222;
+		font-family: arial;
+		font-size: 16px;
+		color: red;
+		text-align:center;
+		opacity: 0.8;
+		
+	}
+
+
+
+
+	.feedback-form button:hover{
+
+	opacity: 1;
+	box-shadow:0px 5px 10px rgba(0,0,0,0.5);
+
+	}
+
+
+
+/* ------  feedback page styling ends here------------*/
+
+
+/* ------------ privacy policy styling starts here  ---------*/
+
+.privacypage
+{
+
+text-align: center;
+}
+
+
+/*-------------privacy policy styling ends here------------*/
+
+
+
+
+
+/*--------------video styling starts from herer------------*/
+ 
+
+ .movie_name{
+ 	text-align: center;
+ 	font-family:georgia;
+ 	font-weight: bolder;
+ 	text-shadow: 0px 10px 5px rgba(0,0,0,0.5);
+ 	font-size: 40px;
+
+
+ }
+
+
+ video{
+ 	width: 100%;
+ 	height: auto;
+ }
+
+ .linkss
+ {
+ 	text-align: center;
+ 	font-size: 40px;
+ 	font-weight: bolder;
+ 	text-shadow:0px 10px 5px rgba(0,0,0,0.5); 
+ 	background-color: lightblue;
+ 	margin:50px;
+ 	border-radius: 6px;
+
+ }
+
+ .linkss a:hover{
+ 	color: white;
+ 	box-shadow: 0px 10px 5px rgba(0,0,0,0.5);
+
+ }
+
+ .linkss p:hover{
+ 	
+ 	box-shadow: 0px 10px 5px rgba(0,0,0,0.5);
+
+/*-----------vedio styling ends here-----------*/
